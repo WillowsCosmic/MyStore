@@ -1,1 +1,0 @@
-# MyStore - E-commerce Application
