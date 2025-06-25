@@ -1,0 +1,54 @@
+.custom-card{
+    width: 18rem;
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;  
+}
+
+.custom-card .card-image{
+    height: 24rem;
+
+}
+
+.name-price-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-button{
+    width: 46%;
+}
+.red{
+    color: red;
+}
+.size{
+    
+    height: 20px;
+}
+
+
+  
+  /* Image animation */  
+  .card-image {  
+    transition: transform 0.5s ease;  
+  }  
+  
+  .card-image:hover  {  
+    transform: scale(1.1);  
+  }  
+  
+  /* Button animations */  
+  .btn.btn-outline-dark.mx-1.mt-4.edit-button {  
+    transition: all 0.2s ease;  
+  }  
+  
+  .btn.btn-outline-dark.mx-1.mt-4.edit-button:hover {  
+    background-color: rgba(133, 192, 255, 0.9);  
+    transform: translateY(-2px);  
+  }  
+  
+  
